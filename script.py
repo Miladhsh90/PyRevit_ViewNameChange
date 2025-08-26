@@ -45,7 +45,7 @@ if not framing_elevation_views:
 
 # --- 3. Get a new base name from the user ONCE ---
 new_base_name = forms.ask_for_string(
-    default="Framing Elevation",
+    default="Framing Elevation Old",
     prompt="Enter the new base name for the views.\n"
            "A number will be appended automatically (e.g., New Name - 1).",
     title="Batch Rename Views"
